@@ -1,0 +1,67 @@
+<!-- **-->
+<!-- * @author Rajat Verma-->
+<!-- * Email: rajatvermaa95@gmail.com-->
+<!-- * Github Profile: https://github.com/rajatt95-->
+<!-- * Github Page: https://rajatt95.github.io/-->
+<!-- * LinkedIn: https://www.linkedin.com/in/rajatt95/-->
+<!-- * Topmate: https://topmate.io/rajatt95-->
+<!-- * Telegram: https://t.me/rajatt95-->
+<!-- * Instagram: https://www.instagram.com/rajattvermaa95/-->
+<!-- * Youtube: https://www.youtube.com/@rajatt95-->
+<!-- * WhatsApp: https://chat.whatsapp.com/DVRP0ViD0YwELUKF2XMJHy-->
+<!-- */-->
+<!-- /***************************************************/-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <!--  groupId: Generally groupId refers to domain id.
+  For best practices company name is used as groupId. It identifies the project uniquely.-->
+  <!--JetBlue Airlines -> org.jetblue | com.jetblue-->
+  <groupId>org.learning</groupId>
+
+  <!--  artifactId: It is basically the name of the Jar without version.-->
+  <artifactId>Tutorial_YT_Rajat_BuildAutomationTool_Maven</artifactId>
+
+  <!--  version: This tag is used to create a version of the project.-->
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Tutorial_YT_Rajat_BuildAutomationTool_Maven</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <selenium-java-version>4.8.1</selenium-java-version>
+    <testng-version>4.8.1</testng-version>
+    <log4j-version>4.8.1</log4j-version>
+    <extentreports-version>4.8.1</extentreports-version>
+  </properties>
+
+  <dependencies>
+
+
+    <!-- Selenium WebDriver -> API -> Browser Automation Library -->
+    <!-- Appium -> API -> Mobile Automation -->
+    <!-- Rest Assured -> API -> REST APIs operations -->
+
+    <!-- WebDriverManager -> To manage the Browser Drivers automatically -->
+
+    <!-- TestNG -> Testing Framework -->
+    <!-- ExtentReports -> Reporting -->
+    <!-- Log4J -> Logging Framework -->
+    <!-- Java Mail API -> To send EMail for test execution reports -->
+    <!-- Maven Surefire Plugin -->
+
+
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+     <!-- <version>4.8.1</version>-->
+      <version>${selenium-java-version}</version>
+    </dependency>
+
+  </dependencies>
+</project>
